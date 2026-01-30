@@ -1,0 +1,31 @@
+# Executables and Build Files
+*.exe
+*.pkg
+*.app
+*.dmg
+*.msi
+
+# Build directories
+nexgen_hub/
+downloads/
+build/
+dist/
+
+# Node modules
+node_modules/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local

@@ -1,0 +1,241 @@
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+CRITICAL ERROR loading Dashboard: name 'target_value' is not defined
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 27, in __init__
+    self.cards.append(DashboardCard(self, "Total Revenue", stats["revenue"], 0, None, is_currency=True, command=self.parent_app.show_revenue_details))
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 176, in __init__
+    self._bind_click_recursive(self)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 186, in _bind_click_recursive
+    clean_target = str(target_value).replace('$', '').replace('\u20b9', '').replace(',', '')
+NameError: name 'target_value' is not defined
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+CRITICAL ERROR loading Dashboard: name 'target_value' is not defined
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 27, in __init__
+    self.cards.append(DashboardCard(self, "Total Revenue", stats["revenue"], 0, None, is_currency=True, command=self.parent_app.show_revenue_details))
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 176, in __init__
+    self._bind_click_recursive(self)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 186, in _bind_click_recursive
+    clean_target = str(target_value).replace('$', '').replace('\u20b9', '').replace(',', '')
+NameError: name 'target_value' is not defined
+Navigation: Switching to Inventory...
+CRITICAL ERROR loading Inventory: expected integer but got "2.5"
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\inventory.py", line 39, in __init__
+    self.table = ModernTable(self, headers, weights)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\modern_table.py", line 27, in __init__
+    self.header_frame.grid_columnconfigure(col_idx, weight=weight)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1782, in grid_columnconfigure
+    return self._grid_configure('columnconfigure', index, cnf, kw)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1770, in _grid_configure
+    res = self.tk.call(
+_tkinter.TclError: expected integer but got "2.5"
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+CRITICAL ERROR loading Dashboard: name 'target_value' is not defined
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\inventory.py", line 39, in __init__
+    self.table = ModernTable(self, headers, weights)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\modern_table.py", line 27, in __init__
+    self.header_frame.grid_columnconfigure(col_idx, weight=weight)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1782, in grid_columnconfigure
+    return self._grid_configure('columnconfigure', index, cnf, kw)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1770, in _grid_configure
+    res = self.tk.call(
+_tkinter.TclError: expected integer but got "2.5"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 27, in __init__
+    self.cards.append(DashboardCard(self, "Total Revenue", stats["revenue"], 0, None, is_currency=True, command=self.parent_app.show_revenue_details))
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 176, in __init__
+    self._bind_click_recursive(self)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 186, in _bind_click_recursive
+    clean_target = str(target_value).replace('$', '').replace('\u20b9', '').replace(',', '')
+NameError: name 'target_value' is not defined
+Navigation: Switching to Clients...
+CRITICAL ERROR loading Clients: expected integer but got "2.5"
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\clients.py", line 31, in __init__
+    self.table = ModernTable(self, headers, weights)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\modern_table.py", line 27, in __init__
+    self.header_frame.grid_columnconfigure(col_idx, weight=weight)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1782, in grid_columnconfigure
+    return self._grid_configure('columnconfigure', index, cnf, kw)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1770, in _grid_configure
+    res = self.tk.call(
+_tkinter.TclError: expected integer but got "2.5"
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+CRITICAL ERROR loading Dashboard: name 'target_value' is not defined
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\clients.py", line 31, in __init__
+    self.table = ModernTable(self, headers, weights)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\modern_table.py", line 27, in __init__
+    self.header_frame.grid_columnconfigure(col_idx, weight=weight)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1782, in grid_columnconfigure
+    return self._grid_configure('columnconfigure', index, cnf, kw)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1770, in _grid_configure
+    res = self.tk.call(
+_tkinter.TclError: expected integer but got "2.5"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 27, in __init__
+    self.cards.append(DashboardCard(self, "Total Revenue", stats["revenue"], 0, None, is_currency=True, command=self.parent_app.show_revenue_details))
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 176, in __init__
+    self._bind_click_recursive(self)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 186, in _bind_click_recursive
+    clean_target = str(target_value).replace('$', '').replace('\u20b9', '').replace(',', '')
+NameError: name 'target_value' is not defined
+Navigation: Switching to history...
+CRITICAL ERROR loading history: expected integer but got "2.5"
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\sales.py", line 46, in __init__
+    self.table = ModernTable(self, headers, weights)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\modern_table.py", line 27, in __init__
+    self.header_frame.grid_columnconfigure(col_idx, weight=weight)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1782, in grid_columnconfigure
+    return self._grid_configure('columnconfigure', index, cnf, kw)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1770, in _grid_configure
+    res = self.tk.call(
+_tkinter.TclError: expected integer but got "2.5"
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+CRITICAL ERROR loading Dashboard: name 'target_value' is not defined
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\sales.py", line 46, in __init__
+    self.table = ModernTable(self, headers, weights)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\modern_table.py", line 27, in __init__
+    self.header_frame.grid_columnconfigure(col_idx, weight=weight)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1782, in grid_columnconfigure
+    return self._grid_configure('columnconfigure', index, cnf, kw)
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1770, in _grid_configure
+    res = self.tk.call(
+_tkinter.TclError: expected integer but got "2.5"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 27, in __init__
+    self.cards.append(DashboardCard(self, "Total Revenue", stats["revenue"], 0, None, is_currency=True, command=self.parent_app.show_revenue_details))
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 176, in __init__
+    self._bind_click_recursive(self)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    self._bind_click_recursive(child)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 186, in _bind_click_recursive
+    clean_target = str(target_value).replace('$', '').replace('\u20b9', '').replace(',', '')
+NameError: name 'target_value' is not defined
+Navigation: Switching to analytics...
+Navigation: analytics loaded successfully.
+Navigation: Switching to Settings...
+Navigation: Settings loaded successfully.
+Navigation: Switching to assistant...
+Navigation: assistant loaded successfully.
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+CRITICAL ERROR loading Dashboard: name 'target_value' is not defined
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 27, in __init__
+    self.cards.append(DashboardCard(self, "Total Revenue", stats["revenue"], 0, None, is_currency=True, command=self.parent_app.show_revenue_details))
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 176, in __init__
+    self._bind_click_recursive(self)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    clean_target = str(self.target_value).replace('$', '').replace('\u20b9', '').replace(',', '')
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    clean_target = str(self.target_value).replace('$', '').replace('\u20b9', '').replace(',', '')
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    clean_target = str(self.target_value).replace('$', '').replace('\u20b9', '').replace(',', '')
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 186, in _bind_click_recursive
+    return
+NameError: name 'target_value' is not defined
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+CRITICAL ERROR loading Dashboard: name 'target_value' is not defined
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 27, in __init__
+    self.cards.append(DashboardCard(self, "Total Revenue", stats["revenue"], 0, None, is_currency=True, command=self.parent_app.show_revenue_details))
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 176, in __init__
+    self._bind_click_recursive(self)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    clean_target = str(self.target_value).replace('$', '').replace('\u20b9', '').replace(',', '')
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    clean_target = str(self.target_value).replace('$', '').replace('\u20b9', '').replace(',', '')
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 181, in _bind_click_recursive
+    clean_target = str(self.target_value).replace('$', '').replace('\u20b9', '').replace(',', '')
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\dashboard.py", line 186, in _bind_click_recursive
+    return
+NameError: name 'target_value' is not defined
+invalid command name "1796583421888update"
+    while executing
+"1796583421888update"
+    ("after" script)
+invalid command name "1796580143424check_dpi_scaling"
+    while executing
+"1796580143424check_dpi_scaling"
+    ("after" script)

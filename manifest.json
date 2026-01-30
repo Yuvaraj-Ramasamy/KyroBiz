@@ -1,0 +1,16 @@
+{
+  "name": "KyroBiz – Smart Business Management and Automation Software",
+  "short_name": "KyroBiz",
+  "description": "KyroBiz is a powerful business management and automation tool designed to help small businesses and startups manage daily operations with ease.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#a855f7",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

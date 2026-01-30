@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 10, in <module>
+    from ui.inventory import InventoryView
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\inventory.py", line 3, in <module>
+    class InventoryView(ctk.CTkFrame):
+NameError: name 'ctk' is not defined

@@ -1,0 +1,84 @@
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+Navigation: Dashboard loaded successfully.
+Navigation: Switching to Inventory...
+Refreshing Inventory Table... Query: 
+Table cleared.
+Navigation: Inventory loaded successfully.
+Navigation: Switching to Inventory...
+Refreshing Inventory Table... Query: 
+Table cleared.
+Navigation: Inventory loaded successfully.
+Navigation: Switching to Clients...
+Navigation: Clients loaded successfully.
+Navigation: Switching to history...
+Refreshing Sales Table...
+Table cleared.
+Navigation: history loaded successfully.
+Navigation: Switching to analytics...
+Navigation: analytics loaded successfully.
+Navigation: Switching to analytics...
+Navigation: analytics loaded successfully.
+Navigation: Switching to history...
+Refreshing Sales Table...
+Table cleared.
+Navigation: history loaded successfully.
+Navigation: Switching to analytics...
+Navigation: analytics loaded successfully.
+Navigation: Switching to Settings...
+Navigation: Settings loaded successfully.
+Navigation: Switching to assistant...
+Navigation: assistant loaded successfully.
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+Navigation: Dashboard loaded successfully.
+Navigation: Switching to Settings...
+Navigation: Settings loaded successfully.
+
+[!] TKINTER ERROR: 'NoneType' object has no attribute 'show_toast'
+Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "C:\Users\n1594158\AppData\Roaming\Python\Python39\site-packages\customtkinter\windows\widgets\ctk_button.py", line 554, in _clicked
+    self._command()
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\settings.py", line 105, in save_profile
+    self.master.master.show_toast("Profile Updated Successfully", "#28a745")
+AttributeError: 'NoneType' object has no attribute 'show_toast'
+Traceback (most recent call last):
+
+[!] TKINTER ERROR: 'NoneType' object has no attribute 'show_toast'
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "C:\Users\n1594158\AppData\Roaming\Python\Python39\site-packages\customtkinter\windows\widgets\ctk_button.py", line 554, in _clicked
+    self._command()
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\settings.py", line 105, in save_profile
+    self.master.master.show_toast("Profile Updated Successfully", "#28a745")
+AttributeError: 'NoneType' object has no attribute 'show_toast'
+Traceback (most recent call last):
+
+[!] TKINTER ERROR: 'NoneType' object has no attribute 'show_toast'
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "C:\Users\n1594158\AppData\Roaming\Python\Python39\site-packages\customtkinter\windows\widgets\ctk_button.py", line 554, in _clicked
+    self._command()
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\settings.py", line 105, in save_profile
+    self.master.master.show_toast("Profile Updated Successfully", "#28a745")
+AttributeError: 'NoneType' object has no attribute 'show_toast'
+Traceback (most recent call last):
+
+[!] TKINTER ERROR: 'NoneType' object has no attribute 'show_toast'
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "C:\Users\n1594158\AppData\Roaming\Python\Python39\site-packages\customtkinter\windows\widgets\ctk_button.py", line 554, in _clicked
+    self._command()
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\settings.py", line 105, in save_profile
+    self.master.master.show_toast("Profile Updated Successfully", "#28a745")
+AttributeError: 'NoneType' object has no attribute 'show_toast'
+bgerror failed to handle background error.
+    Original error: invalid command name "2157788214208update"
+    Error in bgerror: can't invoke "tk" command: application has been destroyed
+bgerror failed to handle background error.
+    Original error: invalid command name "2157788216256check_dpi_scaling"
+    Error in bgerror: can't invoke "tk" command: application has been destroyed

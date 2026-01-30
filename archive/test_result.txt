@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\test_views.py", line 27, in <module>
+    from nexgen_hub.ui.inventory import InventoryView
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\inventory.py", line 5, in <module>
+    from ui.modern_table import ModernTable
+ModuleNotFoundError: No module named 'ui'

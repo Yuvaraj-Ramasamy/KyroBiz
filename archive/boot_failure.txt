@@ -1,0 +1,32 @@
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+Navigation: Dashboard loaded successfully.
+Navigation: Switching to Inventory...
+CRITICAL ERROR loading Inventory: 'ModernTable' object has no attribute '_on_mouse_motion'
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\inventory.py", line 39, in __init__
+    self.table = ModernTable(self, headers, weights)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\modern_table.py", line 74, in __init__
+    self.tree.bind('<Motion>', self._on_mouse_motion)
+AttributeError: 'ModernTable' object has no attribute '_on_mouse_motion'
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+Navigation: Dashboard loaded successfully.
+Navigation: Switching to Clients...
+CRITICAL ERROR loading Clients: 'ModernTable' object has no attribute '_on_mouse_motion'
+Traceback (most recent call last):
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\main.py", line 229, in _change_view
+    new_view = ViewClass(self, self.db)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\clients.py", line 31, in __init__
+    self.table = ModernTable(self, headers, weights)
+  File "C:\Users\n1594158\Music\Crick Wala\nexgen_hub\ui\modern_table.py", line 74, in __init__
+    self.tree.bind('<Motion>', self._on_mouse_motion)
+AttributeError: 'ModernTable' object has no attribute '_on_mouse_motion'
+Navigation: Switching to Dashboard...
+Initializing DashboardView...
+Grid configured.
+Navigation: Dashboard loaded successfully.
